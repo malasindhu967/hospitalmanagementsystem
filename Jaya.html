@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="Jaya.css">
+</head>
+<body>
+    <h1>Cardiologist Availability</h1>
+    <label for="timeSelector">Select a time:</label>
+    <input type="time" id="timeSelector" onchange="showAvailability()">
+    <table id="doctorTable">
+        <thead>
+            <tr>
+                <th>Doctor Name</th>
+                <th>Availability</th>
+            </tr>
+        </thead>
+        <tbody id="doctorTableBody">
+            <!-- Doctor availability will be dynamically added here -->
+        </tbody>
+    </table>
+    <h2  align="center"><a href="cardiologist2.html"><input type="button" name="Back" value="Back" align="center"></a></h2>
+
+    <script src="Jaya.js"></script>
+</body>
+</html>
+
